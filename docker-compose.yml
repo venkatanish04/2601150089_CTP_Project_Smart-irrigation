@@ -1,0 +1,8 @@
+services:
+  irrigation:
+    build: .
+    stdin_open: true
+    tty: true
+  benchmark:
+    build: .
+    command: ["python", "-m", "app.main", "--benchmark"]
