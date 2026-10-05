@@ -1,0 +1,32 @@
+[
+  {
+    "sensors": 10,
+    "sequential_s": 0.15296379994833842,
+    "concurrent_s": 0.01651990000391379,
+    "speedup": 9.3
+  },
+  {
+    "sensors": 25,
+    "sequential_s": 0.3889750000089407,
+    "concurrent_s": 0.017076199990697205,
+    "speedup": 22.8
+  },
+  {
+    "sensors": 50,
+    "sequential_s": 0.7294177999719977,
+    "concurrent_s": 0.016673100006300956,
+    "speedup": 43.7
+  },
+  {
+    "sensors": 100,
+    "sequential_s": 1.5489761999924667,
+    "concurrent_s": 0.006414200004655868,
+    "speedup": 241.5
+  },
+  {
+    "sensors": 500,
+    "sequential_s": 7.286956799973268,
+    "concurrent_s": 0.022395200037863106,
+    "speedup": 325.4
+  }
+]
