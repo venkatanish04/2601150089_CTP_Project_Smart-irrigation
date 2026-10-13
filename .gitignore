@@ -9,4 +9,4 @@ __pycache__/
 schedule.log
 .venv/
 .venv*/
-
+.env

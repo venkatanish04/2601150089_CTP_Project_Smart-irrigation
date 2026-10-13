@@ -1,4 +1,9 @@
-"""Weather abstraction with a simulated implementation."""
+"""Weather abstraction with a simulated implementation.
+
+The local ``.env`` file documents where a future weather provider API key
+would be configured. The current implementation remains offline and does not
+send that key or make external HTTP requests.
+"""
 
 from __future__ import annotations
 

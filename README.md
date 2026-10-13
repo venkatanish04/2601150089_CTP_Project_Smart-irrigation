@@ -4,6 +4,9 @@ Sensor-driven irrigation scheduler using **Greedy** and **Dynamic Programming** 
 **asyncio** sensor polling, and a **Strategy-pattern** OOP design. Pure Python 3.12, no runtime dependencies.
 
 ## Quick start
+See [RUNNING_COMMANDS.md](RUNNING_COMMANDS.md) for the complete Windows, testing,
+quality-check, and Docker command reference.
+
 ```bash
 pip install -e ".[dev]"          # dev tools only; the app itself needs nothing
 python -m app.main               # interactive CLI dashboard
@@ -14,10 +17,10 @@ python -m app.main --benchmark   # sequential vs async, Greedy vs DP, multiproce
 
 ## Quality gates
 ```bash
-ruff check . && black --check . && mypy app/
+ruff check app tests && black --check . && mypy app/
 pytest --cov=app --cov-report=term-missing
 ```
-Current status: 60 tests passing, 99% coverage, mypy `--strict` clean, ruff clean.
+Current status: 60 tests passing, 87% coverage, mypy `--strict` clean, ruff clean.
 
 ## Docker
 ```bash
